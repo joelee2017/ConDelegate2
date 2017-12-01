@@ -37,11 +37,11 @@ namespace ConDelegate2
 
 
             Console.WriteLine("1.三角形");
-            GetArea(d1, d2, dv);
+            GetArea(d1, d2, dv);//變數1，變數2，以及會參考到的方法變數
 
 
             Console.WriteLine("2.矩形");
-            GetArea(d1, d2, new Darea(RecA));
+            GetArea(d1, d2, new Darea(RecA));//變數1，變數2，以及會參考到的方法變數
 
 
             Console.Read();
