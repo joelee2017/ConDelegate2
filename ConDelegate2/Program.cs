@@ -26,14 +26,14 @@ namespace ConDelegate2
             int d1 = 20, d2 = 10;
 
             Darea dv;
-            //dv = (int H, int B) => //Lamdba表示委派方式(完整寫法)
-            // {
-            //     return (H * B) / 2;
-            // };
+            dv = (int H, int B) => //Lamdba表示委派方式(完整寫法)
+             {
+                 return (H * B) / 2;
+             };
 
-            
-            dv = delegate (int H, int B)//連結匿名方法的委派方式(簡寫)
-            { return (H * B) / 2; };
+
+            //dv = delegate (int H, int B)//連結匿名方法的委派方式(簡寫)
+            //{ return (H * B) / 2; };
 
 
             Console.WriteLine("1.三角形");
